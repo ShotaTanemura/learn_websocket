@@ -1,0 +1,9 @@
+services:
+  golang:
+    container_name: golang
+    build: .
+    tty: true
+    volumes:
+      - .:/code
+    ports:
+      - '8000:8000'
