@@ -4,6 +4,6 @@ services:
     build: .
     tty: true
     volumes:
-      - .:/code
+      - .:/go/learn_websocket
     ports:
       - '8000:8000'
